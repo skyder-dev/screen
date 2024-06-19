@@ -1,6 +1,0 @@
-discord
-requests
-opencv-python
-pyautogui
-mss
-aiohttp
