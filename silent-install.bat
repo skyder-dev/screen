@@ -1,14 +1,24 @@
 @echo off
-echo Installation des requirements Python...
+cls
+color 1
+cls
 echo.
-
-REM Assurez-vous d'utiliser pip compatible avec votre environnement
-python -m pip install --upgrade pip
-
-REM Installez les packages requis en utilisant requirements.txt
-python -m pip install -r requirements.txt
-
 echo.
-echo Installation terminée.
-echo Appuyez sur une touche pour fermer cette fenêtre.
-pause > nul
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo ---------------------------------------------------------------------------------------------------------------------                                       
+echo.
+echo                                              INSTALLING IN SILENT MODE 1.1
+echo.
+echo.
+echo ---------------------------------------------------------------------------------------------------------------------
+echo.
+pip install --quiet --no-input -r requirements.txt
+start screen.bat
