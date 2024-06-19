@@ -1,3 +1,6 @@
-mss
+discord
 requests
-pyperclip
+opencv-python
+pyautogui
+mss
+aiohttp
